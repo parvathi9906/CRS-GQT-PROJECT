@@ -9,15 +9,15 @@ package com.gqt.crs.entity;
  */
 public class Admin {
    private int admin_id;
-   private String admin_pwd;
+   private String admin_name;
 /**
  * @param admin_id
- * @param admin_pwd
+ * @param admin_name
  */
-public Admin(int admin_id, String admin_pwd) {
+public Admin(int admin_id, String admin_name) {
 	super();
 	this.admin_id = admin_id;
-	this.admin_pwd = admin_pwd;
+	this.admin_name = admin_name;
 }
 /**
  * @return the admin_id
@@ -32,15 +32,15 @@ public void setAdmin_id(int admin_id) {
 	this.admin_id = admin_id;
 }
 /**
- * @return the admin_pwd
+ * @return the admin_name
  */
-public String getAdmin_pwd() {
-	return admin_pwd;
+public String getAdmin_name() {
+	return admin_name;
 }
 /**
- * @param admin_pwd the admin_pwd to set
+ * @param admin_name the admin_name to set
  */
-public void setAdmin_pwd(String admin_pwd) {
-	this.admin_pwd = admin_pwd;
+public void setAdmin_name(String admin_name) {
+	this.admin_name = admin_name;
 }
 }
